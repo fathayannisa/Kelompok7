@@ -118,8 +118,9 @@ public class Calculator {
                         inText.setText(String.valueOf(val));
                     }
                     opt = '%';
-                    go = false;
-                    addWrite = false;
+                    go = true;
+                    addWrite = true;
+                    System.out.println(x);
                 }
         });
 
